@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#back {
+  background: url(/img/mex.JPG);
+  background-size: cover;
+  position: absolute;
+  top: -1vh;
+  left: -1vw;
+  width: 102vw;
+  height: 102vh;
+}
+#welcome {
+  background: url(/img/willkommen.png);
+  background-size: cover;
+  position: absolute;
+  bottom: 0vh;
+  right: 25%;
+  min-width: 50vw;
+  padding-bottom: 38%;
+}
+#back,
+#welcome {
+  filter: blur(4px);
+  transition: filter 0.7s;
+}
+#back:hover,
+#welcome:hover {
+  filter: blur(0px);
+}
