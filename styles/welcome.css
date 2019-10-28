@@ -4,7 +4,7 @@ body {
   overflow: hidden;
 }
 #back {
-  background: url(/img/mex.JPG);
+  background: url(./img/mex.JPG);
   background-size: cover;
   position: absolute;
   top: -1vh;
@@ -13,7 +13,7 @@ body {
   height: 102vh;
 }
 #welcome {
-  background: url(/img/willkommen.png);
+  background: url(./img/willkommen.png);
   background-size: cover;
   position: absolute;
   bottom: 0vh;
